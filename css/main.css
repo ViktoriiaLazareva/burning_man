@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    background-color: #FFF;
+    color: black;
+	font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ul li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+ background: url('../img/header-bg.jpg') no-repeat center top/ cover;
+color: #FFF;
+padding: 0 213px 339px 213px
+}
+
+
+header a {
+    color: #FFF;
+    text-decoration: none;
+}
+.logo {
+    margin-right: 69p[];
+}
+.menu {
+    display: flex;
+}
+.menu li a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.menu li {
+    margin-right: 40px;
+    letter-spacing: 0,1em;
+}
+.tel {
+    font-size: 17px;
+    margin-left: auto;
+    text-decoration: none;
+    letter-spacing: 0,1em;
+}
+.nav {
+    display: flex;
+    align-items: center;    
+    padding-top: 57px;
+}
+.offer  {
+    text-transform: uppercase;
+	margin-top: 216px;
+}
+.offer p {
+    font-size: 30px;
+	letter-spacing: 0.1em;
+}
+.offer h1 {
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em
+}
+.btn {
+    display: inline-block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+	width: 238px;
+	transition: all 0.5s ease;
+}
+.about {
+    padding: 113px 216px ;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 58;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+}
+.desc-left, .desc-right {
+	width: 564px;
+}
+.gallery {
+    margin-top: 67px;
+    display: flex;
+	justify-content: space-between;
+}
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+.footer{
+    padding-left: 216px;
+}
+.footer-text {
+    font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	padding: 114px 0
+}
