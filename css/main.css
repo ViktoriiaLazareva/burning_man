@@ -133,19 +133,13 @@ h2 {
     transform: scale(1.1);
 }
 
-.footer {
-    padding-left: 216px;
-}
-
 .footer-text {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     display: flex;
-    padding: 114px 0
-}
-
-.footer-text p {
-	margin-right: 67px;
+    padding: 114px 0;
+    width: 100%;
+    justify-content: center;
 }
 
 /* Responsive starts here */
@@ -153,7 +147,7 @@ h2 {
 
 @media screen and (max-width: 1200px) {
     .container {
-		width: 1140 px;
+		width: 1140px;
     }
 }
 @media screen and (max-width: 1199px) {
